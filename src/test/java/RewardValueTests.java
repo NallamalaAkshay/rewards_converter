@@ -9,7 +9,6 @@ public class RewardValueTests {
         var rewardValue = new RewardValue(cashValue);
         assertEquals(cashValue, rewardValue.getCashValue());
     }
-
     @Test
     void create_with_miles_value() {
         int milesValue = 10000;
